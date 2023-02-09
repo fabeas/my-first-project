@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/images/abc.jpg);
+    background-size: cover;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.menu{ 
+    background: #24064f8a;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li {
+    width: 250px;
+    margin: 15px ;
+    padding: 25px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+   
+    background: #77921769;
+}
+.altmenu {
+    display: none;
+}
+.menu ul li:hover .altmenu {
+display: block;
+position: absolute;
+background:#3b107673 ;
+margin-top: 15px;
+margin-left: 15px;
+font-size: 15px;
+}
+
+.menu li:hover .altmenu ul{
+display: block;
+}
+
+.menu ul li:hover .altmenu ul li:hover{
+    background-color: #77921769;
+}
+
+.menu ul li:hover .altmenu ul li {
+    border-bottom: solid #fff;
+    font-size: small;
+}
+
+ h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #ff8c00;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+table,th,td{ 
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: #97c220ae;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    color: #fff;
+    background-color:#d4bf7914 ;
+}
+
+table th {
+
+    color: #fff;
+}
+

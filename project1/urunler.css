@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/images/abc.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{ 
+    background: #24064f8a;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li {
+    width: 250px;
+    margin: 15px ;
+    padding: 25px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+   
+    background: #77921769;
+    font-size: 15px;
+    color: #25e8f6ec;
+}
+.altmenu {
+    display: none;
+}
+.menu ul li:hover .altmenu {
+display: block;
+position: absolute;
+background:#7125dc73 ;
+margin-top: 15px;
+margin-left: 15px;
+font-size: 10px;
+}
+
+.menu li:hover .altmenu ul{
+display: block;
+}
+
+.menu ul li:hover .altmenu ul li:hover{
+    background-color: #77921769;
+}
+
+.menu ul li:hover .altmenu ul li {
+    border-bottom: solid #fff;
+    font-size: small;
+}
+
+h1 { 
+    text-align: center;
+    margin-top: 60px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+img {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    margin: 0;
+
+}

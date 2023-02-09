@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/images/abc.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{ 
+    background: #24064f8a;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li {
+    width: 250px;
+    margin: 15px ;
+    padding: 25px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+   
+    background: #77921769;
+}
+.altmenu {
+    display: none;
+}
+.menu ul li:hover .altmenu {
+display: block;
+position: absolute;
+background:#3b107673 ;
+margin-top: 15px;
+margin-left: 15px;
+font-size: 15px;
+}
+
+.menu li:hover .altmenu ul{
+display: block;
+}
+
+.menu ul li:hover .altmenu ul li:hover{
+    background-color: #77921769;
+}
+
+.menu ul li:hover .altmenu ul li {
+    border-bottom: solid #fff;
+    font-size: small;
+}
+
+.gender {
+    color: white;
+}
+
+label {
+    color: rgba(204, 173, 17, 0.855);
+}
+
+form {
+width: 30%;
+font-size: 25px;
+background-color: #bcacd184;
+border-style:solid ;
+margin: auto;
+padding-top: 30px;
+margin-top: 20px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+h2 {
+
+font-size: 30px;
+color: #fff;
+text-align: center;
+text-decoration: underline;
+margin-top: 130px;
+}
